@@ -4,7 +4,7 @@ async function obtenirUsuariGithub() {
     const dades = await resposta.json();
     console.log("Nom:", dades.name);
     console.log("Seguidors:", dades.followers);
-    console.log("Bio:", dades.bio);
+    console.log("Bio:", dades.bio || "Sense biografia");
   } catch (error) {
     console.log("Error:", error.message);
   }
