@@ -1,0 +1,3 @@
+Marc,250
+Anna,80
+Joan,400
